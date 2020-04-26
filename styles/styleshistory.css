@@ -1,0 +1,112 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: midnightblue;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000000;
+}
+
+#active {
+  background-color: #000000;
+}
+header {
+    background-image: url(../Images/kelvin.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color:black;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+body{
+    font-family: Verdana;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: black;
+}
+
+.col_article {
+    float: left;
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2em;
+   
+}
+.backgroundImageA{
+    background-image: url(../Images/docks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+.backgroundImageB{
+    background-image: url(../Images/chambers.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+.backgroundImageC{
+    background-image: url(../Images/cathedral.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+.backgroundImageD{
+    background-image: url(../Images/square.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+.backgroundImageE{
+    background-image: url(../Images/university.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}
+.backgroundImageF{
+    background-image: url(../Images/tram.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 3px solid black;
+    margin: 2px;
+}

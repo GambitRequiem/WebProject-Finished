@@ -1,0 +1,88 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: midnightblue;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000000;
+}
+
+#active {
+  background-color: #000000;
+}
+#description{
+    text-align: left;
+    font-size: 1em;
+}
+#location{
+    text-align: left;
+    font-size: 1em;
+    float: left;
+}
+#bigPic{ 
+    width: 50%; 
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+    float: left;
+}
+#map{
+    width: 50%; 
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+    float: right;
+}
+header {
+    background-image: url(../Images/kelvin.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    color:black;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+body{
+    font-family: Verdana;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: black;
+    
+}
+#content{
+    float: left;
+    margin: 2px;
+}
+#aboutUs{
+    text-align: left;
+    font-size: 1em;
+    
+}
